@@ -9,3 +9,16 @@ Clone the Repo as shown below
 ```
 git clone https://github.com/richito-g/XenaAnalysis
 ```
+## Usage
+### Step 0: Prepare the Data
+TSV file downloaded as shown in Image
+![image](https://github.com/richito-g/XenaAnalysis/assets/112819365/5a21e444-8aad-4f05-a38e-680e8fcdc349)
+
+| Column | Description |
+| ------------- | ------------- |
+| 1  | sample |
+| 2  | patient  |
+| 3  | OS |
+| 4  | OS.Time  |
+| 5  | gene expression RNAseq - IlluminaHiSeq: |
+| 6  | data  |
