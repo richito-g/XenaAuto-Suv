@@ -29,7 +29,7 @@ Organize your data as shown below:
 
 Open XenaAnalysis with RStudio and change the top line with the correct directory. Then run the script and input the p-value cutoff.
 
-### Step 2: Significant Analysis
+### Step 2: Significance Comparison
 Now inside each SNV and CNA folder contain files named (i.e. KIRP_Sig.csv, KIRP_InSig.csv, BRCA_Sig.csv, BRCA_InSig.csv). The file is formatted as shown below in the table:
 | Column | Description |
 | ------------- | ------------- |
