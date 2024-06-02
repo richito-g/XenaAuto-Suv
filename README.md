@@ -22,3 +22,9 @@ TSV file downloaded as shown in Image
 | 4  | OS.Time  |
 | 5  | gene expression RNAseq - IlluminaHiSeq: |
 | 6  | data  |
+### Step 1: P-Value Analysis
+Organize your data as shown below:
+
+![image](https://github.com/richito-g/XenaAnalysis/assets/112819365/8b855355-2cc3-43e2-b625-3f8ad042959d)
+
+          
