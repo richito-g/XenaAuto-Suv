@@ -30,9 +30,15 @@ Organize your data as shown below:
 Open XenaAnalysis with RStudio and change the top line with the correct directory. Then run the script and input the p-value cutoff.
 
 ### Step 2: Significant Analysis
-Now inside each SNV and CNA folder contain files named (i.e. KIRP_Sig.csv, KIRP_InSig.csv, BRCA_Sig.csv, BRCA_InSig.csv). The file is formated shown below in the table:
+Now inside each SNV and CNA folder contain files named (i.e. KIRP_Sig.csv, KIRP_InSig.csv, BRCA_Sig.csv, BRCA_InSig.csv). The file is formatted as shown below in the table:
 | Column | Description |
 | ------------- | ------------- |
 | 1  | Gene           |
 | 2  | P-Value  |
 | 3  | Significance |
+
+In these files, you can see each gene's expression p-value and whether they are significant. Next, to determine the genes that appeared the most, organize each __Sig.csv file into one directory. Open SignificantAnalysisR and replace the top line with the correct directory. SiginificantAnalysisR takes each file and isolates the gene name, making analysis easier. Each output file should contain only gene names now.
+
+### Step 2.5: Significant Analysis 2
+Having isolated gene name files, open SignificantAnalysis2 (change to the desired directory), and run the script. In the console, it will display the genes that are the most frequent across the files and their frequency. 
+
