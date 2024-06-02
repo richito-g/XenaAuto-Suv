@@ -56,10 +56,10 @@ for (gene_folder in gene_folders) {
     combined_significant <- do.call(rbind, significant_results)
     combined_insignificant <- do.call(rbind, insignificant_results)
     
-    file_name_significant <- paste0(basename(gene_folder),"_", basename(sub_folder), "_Sig.05.csv")
+    file_name_significant <- paste0(basename(gene_folder),"_", basename(sub_folder), "_Sig.csv")
     file_path_significant <- file.path(sub_folder, file_name_significant)
     
-    file_name_insignificant <- paste0(basename(gene_folder),"_", basename(sub_folder), "_InSig.05.csv")
+    file_name_insignificant <- paste0(basename(gene_folder),"_", basename(sub_folder), "_InSig.csv")
     file_path_insignificant <- file.path(sub_folder, file_name_insignificant)
     
     write.csv(combined_significant, file = file_path_significant, row.names = FALSE)
