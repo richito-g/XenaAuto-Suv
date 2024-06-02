@@ -1,4 +1,4 @@
-directory_path <- "C:/R_Scripts/XenaFiles/Results23"
+directory_path <- "" #same results path
 text_files <- list.files(path = directory_path, pattern = "_genes\\.txt$", full.names = TRUE)
 
 all_gene_names <- c()
