@@ -1,6 +1,6 @@
 # Set the directory path
-directory_path <- "C:/R_Scripts/XenaFiles/Significants"#input directory path
-result_path <- "C:/R_Scripts/XenaFiles/Results23/"#input result path
+directory_path <- ""#input directory path
+result_path <- ""#input result path
 # Get a list of all CSV files in the directory  
 csv_files <- list.files(path = directory_path, pattern = "\\.csv$", full.names = TRUE)
 
