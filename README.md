@@ -6,4 +6,4 @@ This software analyzes gene expression survival data downloaded from UCSC Xena a
 * survminer
 ## Installation
 Clone the Repo as shown below
-
+git clone https://github.com/richito-g/XenaAnalysis.git
