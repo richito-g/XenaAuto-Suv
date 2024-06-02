@@ -2,7 +2,7 @@ library(survival)
 library(survminer)
 
 parent_folder_path <- "C:/R_Scripts/XenaFiles/XenaFiles"
-folder3 <- "C:/R_Scripts/CANCERGENES/P-Value/ResultsPVal" #if want results to different folder
+
 
 p_value_cutoff <- as.numeric(readline("Enter the p-value cutoff: "))
 
