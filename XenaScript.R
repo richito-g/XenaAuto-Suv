@@ -35,7 +35,7 @@ for (gene_folder in gene_folders) {
       km_fit <- survfit(surv_obj ~ get(gene_name), data = data1)
       p_val <- surv_pvalue(km_fit)
       
-      # Extract p-value as numeric, handling scientific notation
+    
       p_val_numeric <- as.numeric(sub(".*=\\s*([0-9]+\\.?[0-9]*e?-?[0-9]*).*", "\\1", p_val[4]))
       gene_name <- gsub("gene.expression.RNAseq...IlluminaHiSeq..", "", names(data1)[ncol(data1)])
       
@@ -43,7 +43,7 @@ for (gene_folder in gene_folders) {
         next 
       }
       
-      # Set significance based on p-value
+     
       if (p_val_numeric < p_value_cutoff || is.nan(p_val_numeric)) {
         sig <- "Significant"
         significant_results[[data_file]] <- data.frame(Gene = gene_name, P_Value_Expression = p_val[4], Significance = sig, stringsAsFactors = FALSE)
