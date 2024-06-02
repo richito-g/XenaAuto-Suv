@@ -1,7 +1,7 @@
 library(survival)
 library(survminer)
 
-parent_folder_path <- "C:/R_Scripts/XenaFiles/XenaFiles"
+parent_folder_path <- "" # Enter Parent Folder Location
 
 
 p_value_cutoff <- as.numeric(readline("Enter the p-value cutoff: "))
